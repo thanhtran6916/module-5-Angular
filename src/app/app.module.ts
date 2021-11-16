@@ -7,13 +7,15 @@ import { FontSizeComponent } from './font-size/font-size.component';
 import {FormsModule} from '@angular/forms';
 import { PetComponent } from './pet/pet.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { ColorComponent } from './color/color.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FontSizeComponent,
     PetComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    ColorComponent
   ],
     imports: [
         BrowserModule,

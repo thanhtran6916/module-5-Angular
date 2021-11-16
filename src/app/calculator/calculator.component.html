@@ -1,0 +1,13 @@
+<p>calculator works!</p>
+<p>Number A</p>
+<input type="number" #numberA>
+<p>Number B</p>
+<input type="number" #numberB>
+<select #cal>
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">*</option>
+  <option value="/">/</option>
+</select>
+<button (click)="calculator(numberA.value, numberB.value, cal.value)">Calculator</button>
+<p>{{result}}</p>
